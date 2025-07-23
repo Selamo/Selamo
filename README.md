@@ -3,7 +3,16 @@
     src="https://i.ibb.co/yFG97DbR/PXL-20241115-103038611-PORTRAIT.jpg" 
     alt="Selamo Allen Portrait" 
     width="200" 
-    style="border-radius:50%;" 
+    style="
+      border-radius: 50%; 
+      border: 4px solid #4CAF50; /* a nice green border */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* subtle shadow */
+      background-color: #fff; /* white background behind the image */
+      padding: 5px; /* some padding around the image */
+      transition: transform 0.3s, box-shadow 0.3s; /* smooth hover transition */
+    "
+    onmouseover="this.style.transform='scale(1.05)'; this.style.box-shadow='0 8px 16px rgba(0, 0, 0, 0.3)';"
+    onmouseout="this.style.transform='scale(1)'; this.style.box-shadow='0 4px 8px rgba(0, 0, 0, 0.2)';"
   />
 </div>
 
@@ -37,17 +46,6 @@
 ---
 
 <h3 align="center">🚀 I am a Software Engineering student and an Intermediate Backend Engineer with technologies like PHP (Laravel Framework) and C# (.NET Framework), currently attending the Ultimate Generative AI BootCamp from BAMENDA, CAMEROON 🌟</h3>
-
----
-
-<div align="center">
-  <img 
-    src="https://i.ibb.co/yFG97DbR/PXL-20241115-103038611-PORTRAIT.jpg" 
-    alt="Selamo Allen Portrait" 
-    width="200" 
-    style="border-radius: 50%;" 
-  />
-</div>
 
 ---
 
